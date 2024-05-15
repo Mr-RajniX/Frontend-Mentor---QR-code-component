@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Outfit:100,200,300,regular,500,600,700,800,900);
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: Outfit, serif;
+    font-size: 15px;
+    height: 1em;
+    display: inline;
+    margin: 0;
+}
+.head {
+    font-size: 22px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+.desc {
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+}
+.container {
+    position: relative;
+    padding: 14px;
+    border-radius: 10px;
+    width: 250px;
+    top: 50%;
+    left: 40%;
+    text-align: center;
+    margin-top: 10%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.qr-code img {
+    border-radius: 10px;
+}
+.attribution {
+    position: sticky;
+    bottom: 0px;
+}
